@@ -1,6 +1,5 @@
 import {Component} from 'react'
 
-import {MdSearch} from 'react-icons/md'
 import MusicItem from '../MusicItem'
 import {
   BgContainer,
@@ -144,7 +143,6 @@ class MusicPlayList extends Component {
               placeholder="Search"
               onChange={this.onChangeSearchInput}
             />
-            <MdSearch size={20} color="#ffffff" />
           </SearchIconCont>
         </PlayListContainer>
         {searchResults.length === 0 ? (
