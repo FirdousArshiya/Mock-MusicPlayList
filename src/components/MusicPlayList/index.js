@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import {BiSearch} from 'react-icons/bi'
 
 import MusicItem from '../MusicItem'
 import {
@@ -143,6 +144,7 @@ class MusicPlayList extends Component {
               placeholder="Search"
               onChange={this.onChangeSearchInput}
             />
+          <BiSearch style={{color: 'white'}} />
           </SearchIconCont>
         </PlayListContainer>
         {searchResults.length === 0 ? (
