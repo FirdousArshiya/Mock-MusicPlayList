@@ -44,18 +44,28 @@ export const PlayListHeading = styled.h1`
   font-weight: bold;
 `
 
-export const SearchInput = styled.input`
-  height: 30px;
-  width: 18%;
-  padding-left: 15px;
-  color: #cbd5e1;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
+export const SearchIconCont = styled.div`
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
-  outline: none;
-  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
 `
 
+export const SearchInput = styled.input`
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 17px;
+  outline: none;
+`
 export const MusicList = styled.ul`
   padding: 0;
   margin-left: 50px;
@@ -73,9 +83,4 @@ export const NoSongsText = styled.p`
   color: #ffffff;
   font-size: 32px;
   font-weight: bold;
-`
-export const SearchIconCont = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 `
